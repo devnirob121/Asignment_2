@@ -51,6 +51,7 @@ body{ font-family: 'Open Sans', sans-serif;}
     font-size: 17px;
     margin-left: 20px;
     color: #3C354F;
+    display: inline-block;
 }
 .menu .fa-brands{
     color: red;
@@ -128,6 +129,7 @@ button.singup {
 }
 .Gamer_Content{
     text-align: right;
+    width: 40%;
 }
 .Gamer_Content h3 {
     font-size: 26px;
@@ -214,9 +216,9 @@ button.singup {
 }
 /* Installs_Section_End */
 
-/* actione gamer section start */
+/* Action_Gamer-Section_Start */
 
-.action-gamer{
+.Action_Gamer{
     display: flex;
     /* grid-template-columns: repeat(5, 1fr); */
     align-items: center;
@@ -224,7 +226,7 @@ button.singup {
    justify-content: center;
 
 }
-.action-box{
+.Action_Box{
     display: flex;
     align-items: center;
     gap: 11px;
@@ -236,41 +238,41 @@ button.singup {
     border: 1px solid white;
  
 }
-.action-box:hover{
+.Action_Box:hover{
     border: 1px solid #F948B2;
     border-radius: 50px;
     color: #F948B2;
 }
 
-.action-photo img{
+.Action_Photo img{
     width: 50px;
     height: 55px;
 }
 
 
-/* action gamer section end */
+/* Action_Gamer-Section_End */
 
 /* footer section start */
-.footer-main{
+.Footer-main{
     background-color: #0B0223;
     padding: 50px;
     color: white;
 
 }
 
-.footer-pictures{
+.Footer-picture{
     display: flex;
     justify-content: center;
 
 }
-.footer-pictures img {
+.Footer-picture img {
     width: 56px;
     height: 28px;
     margin-right: 18px;
     margin-bottom: 25px;
 }
 
-.list-group{
+.List-group{
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -278,21 +280,21 @@ button.singup {
 .icon{
     text-align: center;
 }
-.footer-group{
+.Footer-group{
     display: flex;
     justify-content: center;
 }
-.footer-title{
+.Footer-title{
     text-align: center;
 }
-.footer-pictures span{
+.Footer-picture span{
     color: #F948B2;
 
 }
-.footer-pictures h4 {
+.Footer-picture h4 {
     font-size: 30px;
 }
-.list-group h4 {
+.List-group h4 {
     font-size: 17px;
     font-weight: 500;
     text-transform: capitalize;
@@ -301,16 +303,16 @@ button.singup {
 .icon {
     padding: 10px;
 }
-.footer-group{
+.Footer-group{
     color:rgba(255, 255, 255, 0.60);
     font-size: 14px;
 }
-.footer-group h4 {
+.Footer-group h4 {
     margin-bottom: 11px;
     margin-left: 18px;
     font-weight: 500;
 }
-.footer-title{
+.Footer_title{
     color:rgba(255, 255, 255, 0.60);
     font-size: 14px;
     margin-bottom: 11px;
@@ -318,19 +320,7 @@ button.singup {
     font-weight: 500;
 
 }
-.hover-conten {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #00000093;
-    border-radius: 15px;
-    display: none;
-   
- 
-}
-.img-card:hover .hover-conten{
+.hover-content{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -338,12 +328,85 @@ button.singup {
     flex-direction: column;
 }
 
-
-
 .img-card {
     position: relative;
     height: 100%;
 }
-.img-card img{
 
+
+/* Footer_Section_End */
+
+/* Start-responsive-for-L_mobile */
+
+@media screen and (max-width:425px){
+    .menu{
+        flex-direction: column;
+
+    }
+    .menu ul{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .menu ul li a{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+    .Banner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Gamer_Main{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .Gamer_Picture{
+        width: 100%;
+
+    }
+    .Gamer_Content{
+        text-align: center;
+
+    }
+    .Online_Main{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Online_Text h3{
+        font-size: 25px;
+    }
+    .Installs{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .Install_Content h4{
+        text-align: center;
+
+    }
+    .Install_Content p{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .Install_Pictures{
+        height: auto;
+        width: 40%;
+    }
+    .Action_Gamer{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .action-content h4{
+        font-size: 10px;
+    }
+    .Action_Photo img{
+    width: 25px;
+    height: 27px;
+}
+.Action_Box{
+    margin-bottom: 15px;
+    padding: 0;
+}
 }
