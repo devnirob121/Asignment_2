@@ -336,6 +336,7 @@ button.singup {
 }
 .Footer-picture h4 {
     font-size: 30px;
+    margin-top: -5px;
 }
 .List-group h4 {
     font-size: 17px;
@@ -345,6 +346,7 @@ button.singup {
 }
 .icon {
     padding: 10px;
+    font-size: 36px;
 }
 .Footer-group{
     color:rgba(255, 255, 255, 0.60);
@@ -363,6 +365,12 @@ button.singup {
     font-weight: 500;
 
 }
+.icon .fa-facebook{
+    color: rgb(83 135 238);
+}
+.icon .fa-youtube{
+    color: red;
+}
 
 
 
@@ -371,7 +379,7 @@ button.singup {
 /* Start-responsive-for-L_mobile */
 
 @media screen and (max-width:425px){
-    .menu{
+    .header{
         flex-direction: column;
 
     }
@@ -399,6 +407,7 @@ button.singup {
 
     }
     .Gamer_Content{
+        width: 100%;
         text-align: center;
 
     }
@@ -409,11 +418,11 @@ button.singup {
     .online_content h3{
         font-size: 25px;
     }
+    
     .Installs{
         flex-direction: column;
         align-items: center;
         padding-bottom: 0;
-
     }
     .Install_Content h4{
         text-align: center;
@@ -425,7 +434,7 @@ button.singup {
     }
     .Install_Pictures{
         height: auto;
-        width: 40%;
+        width: 65%;
     }
     .Action_Gamer{
         display: grid;
@@ -465,6 +474,9 @@ button.singup {
 }
 .Footer-group{
     font-size: 50px;
+}
+.Footer-group h4{
+    font-size: 10px;
 }
 
 }
