@@ -43,6 +43,7 @@ body{ font-family: 'Open Sans', sans-serif;}
 .menu ul{
     display: flex;
     list-style: none;
+
 }
 .menu ul li a{
     text-decoration: none;
@@ -100,3 +101,247 @@ button.singup {
     font-size: 15px;
 }
 /* Banner_Section_End */
+
+/* Gamer_Section_Start */
+.Gamer_Button{
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    background: #FF42A5;
+    padding: 13px 22px;
+    font-size: 15px;
+    border-radius: 31px;
+    margin-bottom: 13px;
+}
+.Gamer{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+}
+.Gamer_Main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.Gamer_Picture{
+    width: 50%;
+}
+.Gamer_Content{
+    text-align: right;
+}
+.Gamer_Content h3 {
+    font-size: 26px;
+    margin-bottom: 13px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Gamer_Content p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 13px;
+}
+/* Gamer_Section_End */
+
+/* Online_Section_Start */
+.Online_Main{
+    display: flex;
+    justify-content: space-around;
+    gap: 33px;
+    padding: 40px 0px;
+}
+.Online_Text{
+    text-align: center;
+}
+.Online_Text h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.Online_Text h4 {
+    font-size: 11px;
+}
+.Online{
+    padding: 50px 0px ;
+}
+.Online_Text span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.Hover_Content h3{
+    color: #F948B2;
+}
+.Online_img h4 {
+    font-size: 13px;
+    line-height: 17px;
+}
+/* Online_Section_End */
+
+/* install section start */
+.install {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 145px;
+}
+.install-pictures{
+    height: 400px;
+}
+.positio {
+    width: 200px;
+    height: 230px;
+    position: relative;
+    top: -173px;
+    right: 100px;
+}
+.install-content h4 {
+    font-size: 29px;
+    text-align: right;
+}
+.install-content span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.install-content p {
+    text-align: right;
+    font-size: 16px;
+    line-height: 22px;
+}
+/* install section end */
+/* actione gamer section start */
+
+.action-gamer{
+    display: flex;
+    /* grid-template-columns: repeat(5, 1fr); */
+    align-items: center;
+    flex-wrap: wrap;
+   justify-content: center;
+
+}
+.action-box{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 25px;
+    padding: 14px 7px;
+    margin-bottom: 25px;
+    margin-right: 5px;
+    text-align: center;
+    border: 1px solid white;
+ 
+}
+.action-box:hover{
+    border: 1px solid #F948B2;
+    border-radius: 50px;
+    color: #F948B2;
+}
+
+.action-photo img{
+    width: 50px;
+    height: 55px;
+}
+
+
+/* action gamer section end */
+/* footer section start */
+.footer-main{
+    background-color: #0B0223;
+    padding: 50px;
+    color: white;
+
+}
+
+.footer-pictures{
+    display: flex;
+    justify-content: center;
+
+}
+.footer-pictures img {
+    width: 56px;
+    height: 28px;
+    margin-right: 18px;
+    margin-bottom: 25px;
+}
+
+.list-group{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.icon{
+    text-align: center;
+}
+.footer-group{
+    display: flex;
+    justify-content: center;
+}
+.footer-title{
+    text-align: center;
+}
+.footer-pictures span{
+    color: #F948B2;
+
+}
+.footer-pictures h4 {
+    font-size: 30px;
+}
+.list-group h4 {
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 18px;
+}
+.icon {
+    padding: 10px;
+}
+.footer-group{
+    color:rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+}
+.footer-group h4 {
+    margin-bottom: 11px;
+    margin-left: 18px;
+    font-weight: 500;
+}
+.footer-title{
+    color:rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    margin-bottom: 11px;
+    margin-left: 18px;
+    font-weight: 500;
+
+}
+.hover-conten {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000093;
+    border-radius: 15px;
+    display: none;
+   
+ 
+}
+.img-card:hover .hover-conten{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2.5px solid #FF42A5;
+    flex-direction: column;
+}
+
+
+
+.img-card {
+    position: relative;
+    height: 100%;
+}
+.img-card img{
+
+}
