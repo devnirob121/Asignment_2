@@ -180,39 +180,40 @@ button.singup {
 }
 /* Online_Section_End */
 
-/* install section start */
-.install {
+/* Installs_Section_Start  */
+.Installs {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 145px;
 }
-.install-pictures{
+.Install_Pictures{
     height: 400px;
 }
-.positio {
+.Position{
     width: 200px;
     height: 230px;
     position: relative;
     top: -173px;
     right: 100px;
 }
-.install-content h4 {
+.Install_Content h4 {
     font-size: 29px;
     text-align: right;
 }
-.install-content span{
+.Install_Content span{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.install-content p {
+.Install_Content p {
     text-align: right;
     font-size: 16px;
     line-height: 22px;
 }
-/* install section end */
+/* Installs_Section_End */
+
 /* actione gamer section start */
 
 .action-gamer{
@@ -248,6 +249,7 @@ button.singup {
 
 
 /* action gamer section end */
+
 /* footer section start */
 .footer-main{
     background-color: #0B0223;
